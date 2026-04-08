@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://limitedlicencenelson.co.nz/sitemap.xml
