@@ -169,9 +169,17 @@ A, a {
   position: relative;
   min-height: 82vh;
   background:
-    linear-gradient(135deg, rgba(17, 36, 60, 0.78), rgba(39, 75, 115, 0.58)),
-    url("assets/hero.jpg") center/cover no-repeat;
+    linear-gradient(135deg, rgba(17, 36, 60, 0.78), rgba(39, 75, 115, 0.58));
   color: white;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .hero-overlay {
